@@ -3,7 +3,6 @@ OUTPUT_FORMAT("elf32-microblazeel", "elf32-microblaze",
 	      "elf32-microblazeel")
 OUTPUT_ARCH(microblaze)
 ENTRY(_start)
-SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
 /* Do we need any of these for elf?
    __DYNAMIC = 0;    */
 SECTIONS
